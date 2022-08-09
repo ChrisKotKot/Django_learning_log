@@ -1,0 +1,14 @@
+{% extends "learning_logs/base.html" %}
+
+{% block page_header %}
+  <div class="jumbotron">
+    <h1 class="display-3">Monitoruj swoje postępy!</h1>
+
+    <p class="lead">Załóż konto już teraz, aby rozpocząć korzystanie z aplikacji
+        Learning Log oraz wyświetlić listę poznawanych tematów.
+        Gdy nauczysz się czegoś nowego na dany temat, utwórz wpis podsumowujący to, czego dokonałeś!</p>
+
+    <a class="btn btn-lg btn-success" href="{% url 'users:register' %}"
+        role="button">Zarejestruj konto &raquo;</a>
+  </div>
+{% endblock page_header %}
