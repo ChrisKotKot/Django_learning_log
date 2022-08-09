@@ -1,0 +1,4 @@
+11_env
+_pychache_/
+*.sqlite3
+.DS_Store
